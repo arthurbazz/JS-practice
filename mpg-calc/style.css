@@ -1,0 +1,28 @@
+/*===== CSS FORMATING =====*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: bisque;
+}
+
+header {
+    text-align: center;
+    margin: 20px;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid peru;
+    border-radius: 7px;
+    width: 30%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.main-container > input {
+    margin: 8px;
+    padding: 4px 10px;
+}
